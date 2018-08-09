@@ -1,0 +1,108 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gitbook > send > debug:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > tiny-lr > body-parser > debug:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > tiny-lr > debug:
+        patched: '2018-08-09T05:53:48.668Z'
+  'npm:hoek:20180212':
+    - gitbook > request > hawk > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npm > request > hawk > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npm > request > hawk > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > request > hawk > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > request > hawk > sntp > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npm > request > hawk > sntp > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npm > request > hawk > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npmi > npm > request > hawk > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npm > request > hawk > sntp > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npmi > npm > request > hawk > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npm > request > hawk > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npmi > npm > request > hawk > sntp > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npmi > npm > request > hawk > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npmi > npm > request > hawk > sntp > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npmi > npm > request > hawk > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npmi > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npmi > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-08-09T05:53:48.668Z'
+  'npm:lodash:20180130':
+    - gitbook > gitbook-plugin-sharing > lodash:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > juice > web-resource-inliner > lodash:
+        patched: '2018-08-09T05:53:48.668Z'
+  'npm:mime:20170907':
+    - gitbook > send > mime:
+        patched: '2018-08-09T05:53:48.668Z'
+  'npm:minimatch:20160620':
+    - gitbook > npm > node-gyp > glob > minimatch:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npm > node-gyp > minimatch:
+        patched: '2018-08-09T05:53:48.668Z'
+  'npm:moment:20161019':
+    - gitbook > moment:
+        patched: '2018-08-09T05:53:48.668Z'
+  'npm:ms:20170412':
+    - gitbook > send > ms:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > send > debug > ms:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > tiny-lr > debug > ms:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > tiny-lr > body-parser > debug > ms:
+        patched: '2018-08-09T05:53:48.668Z'
+  'npm:tough-cookie:20170905':
+    - gitbook > request > tough-cookie:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npm > request > tough-cookie:
+        patched: '2018-08-09T05:53:48.668Z'
+  'npm:tunnel-agent:20170305':
+    - gitbook > request > tunnel-agent:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npm > request > tunnel-agent:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook > npmi > npm > request > tunnel-agent:
+        patched: '2018-08-09T05:53:48.668Z'
+    - gitbook-cli > npmi > npm > request > tunnel-agent:
+        patched: '2018-08-09T05:53:48.668Z'
