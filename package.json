@@ -1,10 +1,14 @@
 {
   "dependencies": {
     "gitbook": "3.2.3",
-    "gitbook-cli": "2.3.2"
+    "gitbook-cli": "2.3.2",
+    "snyk": "^1.116.2"
   },
   "scripts": {
     "build": "./node_modules/.bin/gitbook build && ./node_modules/.bin/gitbook pdf && ./node_modules/.bin/gitbook mobi && ./node_modules/.bin/gitbook epub",
-    "build-pdf": "./node_modules/.bin/gitbook pdf"
-  }
+    "build-pdf": "./node_modules/.bin/gitbook pdf",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
