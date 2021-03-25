@@ -29,7 +29,7 @@
     "gulp-duration": "0.0.0",
     "gulp-eslint": "4.0.0",
     "gulp-sourcemaps": "1.6.0",
-    "gulp-util": "3.0.7",
+    "gulp-util": "3.0.8",
     "prop-types": "15.6.1",
     "react": "16.3.0-alpha.3",
     "react-dom": "16.3.0-alpha.3",
